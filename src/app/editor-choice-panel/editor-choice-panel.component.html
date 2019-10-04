@@ -1,0 +1,15 @@
+    <!-- Project One -->
+    <div [@renderAnim] class="row box-shade " style="width:75%;">
+        <div class="col-md-3">
+            <img class="img-fluid rounded mb-3 mb-md-0" style="width:180px; height: 130px;"src="{{editorChoiceDetail.imageUrl}}" alt="">
+            <span class="postedon">Posted on {{editorChoiceDetail.publishedDtTm}}</span>
+        </div>
+        <div class="col-md-5">
+          <span class="tile-header">{{editorChoiceDetail.headLine}} </span>
+          <br/>
+          <span class="tile-summary">{{editorChoiceDetail.summary}} ...</span>
+        </div>
+        <div class="col-md-2 d-flex align-items-center">
+          <button class="btn btn-primary tile-summary" (click)="onReadClick()" >ఇంకా చదవండి</button>
+        </div>
+      </div>

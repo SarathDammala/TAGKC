@@ -1,0 +1,17 @@
+.container {
+    color: whitesmoke;
+}
+.mb-5, .my-5 {
+    margin-top: 1rem!important;
+    margin-bottom: 0.5rem!important;
+}
+
+.tile-header {
+    font-size: 1rem ;
+    font-weight: 900;
+}
+
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+        <!-- Page Heading -->
+        <h1 class="my-5">గ్యాలరీ / Gallery</h1>
+        <div>
+            <div class="col-md-12">
+                <a *ngFor="let galleryData of galleryDataList">
+                    <app-gallery-panel [galleryData]= "galleryData"></app-gallery-panel>
+                </a>
+            </div>
+        </div>
+      </div>

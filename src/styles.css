@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    /* background-color: ghostwhite; */
+    white-space:pre-wrap;
+    background-image: url("./app/resources/background_4.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* .headerImage {
+    background-image: url("./assets/bannerImage_transparent.png");
+  } */

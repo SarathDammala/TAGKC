@@ -1,0 +1,33 @@
+<div [@renderAnim] class="row box-shade container" >
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a class="img-fluid rounded mb-3 mb-md-0">
+            <a *ngFor="let galleryImages1 of imagesCol1">
+                <img class="img-responsive" style="width:280px; height: 230px;" src="{{galleryImages1}}"/>
+            </a>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6" >
+        <a class="img-fluid rounded mb-3 mb-md-0">
+            <a *ngFor="let galleryImages2 of imagesCol2">
+                <img class="img-responsive" style="width:280px; height: 230px;" src="{{galleryImages2}}"/>
+            </a>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6" >
+        <a class="img-fluid rounded mb-3 mb-md-0">
+            <a *ngFor="let galleryImages3 of imagesCol3">
+                <img class="img-responsive" style="width:280px; height: 230px;" src="{{galleryImages3}}" />
+            </a>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6" >
+        <a class="img-fluid rounded mb-3 mb-md-0">
+            <a *ngFor="let galleryImages4 of imagesCol4">
+                <img class="img-responsive" style="width:280px; height: 230px;" src="{{galleryImages4}}" />
+            </a>
+        </a>
+    </div>            
+</div>
+<footer>
+    <button class="btn btn-primary tile-summary justify-content-center container-fluid row mx-auto px-2 my-2" (click)="onBackToTop()" >Back to Top</button>
+</footer>

@@ -1,0 +1,12 @@
+<!-- Page Content -->
+<div class="row container">
+    <!-- Page Heading -->
+    <h1 class="my-5">ఎడిటర్స్ ఛాయిస్ / Editors Choice</h1>
+    <div>
+        <div class="col-md-12">
+            <a *ngFor="let editorChoiceDetail of editorChoiceDetails">
+                <app-editor-choice-panel [editorChoiceDetail]= "editorChoiceDetail"></app-editor-choice-panel>
+            </a>
+        </div>
+    </div>
+  </div>
